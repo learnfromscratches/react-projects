@@ -1,0 +1,8 @@
+.searchBar{
+    width: 350px;
+    height: 40px;
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 0.3em;
+    padding: 20px;
+}

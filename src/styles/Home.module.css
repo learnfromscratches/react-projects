@@ -1,0 +1,17 @@
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  width: auto;
+  margin: 50px 0 20px 0;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+.cardGroup{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}

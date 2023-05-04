@@ -1,0 +1,28 @@
+.foodCard{
+    width: 600px;
+    margin: 50px auto;
+    height: 180px;
+    border: 1px solid gray;
+    border-radius: 0.6rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    justify-content: flex-start;
+}
+.foodCard img{
+    width: 250px;
+    height: 180px;
+    border-radius: 10px 0 0 10px;
+}
+.cardContent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.cardContent p{
+    margin-top: 10px;
+    width: auto;
+}
