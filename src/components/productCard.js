@@ -1,10 +1,11 @@
 import styles from "./productCard.module.css"
+import Image from "next/image";
 
 const ProductCard = props =>{
     return(
         <div>
             <div className={styles.productCard}>
-                <img className={styles.productImage} src={props.thumbnail}/>
+                <Image width={300} height={350} className={styles.productImage} src={props.thumbnail}/>
                 <div className={styles.price}>
                     <p>USD {props.price}</p>
                     <p>discount {props.discount}%</p>

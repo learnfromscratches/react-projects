@@ -3,6 +3,7 @@ import Input from '@/components/input';
 import Navbar from '@/components/navbar';
 import { useState } from 'react';
 import RecipeCard from '@/components/recipe';
+import Link from 'next/link';
 
 const Home = () => {
 
