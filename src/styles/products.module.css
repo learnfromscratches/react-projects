@@ -1,0 +1,15 @@
+.heading{
+    font-size: 30px;
+}
+.ProductsBody h1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.card{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
