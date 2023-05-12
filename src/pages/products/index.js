@@ -2,6 +2,7 @@ import styles from "@/styles/products.module.css"
 import ProductCard from "@/components/productCard";
 import { useState } from "react";
 import { useEffect } from "react";
+import Link from "next/link";
 
 const Products = () => {
 
@@ -19,7 +20,7 @@ const Products = () => {
                 <h1 className={styles.heading}>Products</h1>
                 <div className={styles.card}>
                     {product.map(item => (
-                        <ProductCard title = {item.title} description ={item.description} price = {item.price} brand = {item.brand} category = {item.category} rating = {item.rating} thumbnail = {item.thumbnail} discount = {item.discountPercentage}/>
+                        <ProductCard id = {item.id} title = {item.title} description ={item.description} price = {item.price} brand = {item.brand} category = {item.category} rating = {item.rating} thumbnail = {item.thumbnail} discount = {item.discountPercentage}/>
                     ))}
                 </div>
             </div>
